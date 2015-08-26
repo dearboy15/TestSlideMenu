@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SlideMenuControllerSwift
 
 class ViewController: UIViewController {
 
@@ -20,6 +21,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func go(sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    
+        let main = storyboard.instantiateViewControllerWithIdentifier("SecondView") as! SecondViewController
+        
+        let left = UIViewController()
+        left.view.backgroundColor = UIColor.yellowColor()
+        let right = UIViewController()
+        right.view.backgroundColor = UIColor.blueColor()
+        
+        let slideMenu = SlideMenuController(mainViewController: main, leftMenuViewController: left, rightMenuViewController: right)
+        self.presentViewController(slideMenu, animated: false, completion: nil)
+
+    }
 
 }
 
