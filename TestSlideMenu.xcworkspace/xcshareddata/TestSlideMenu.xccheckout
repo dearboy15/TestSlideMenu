@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>16C18B80-5426-4E5F-9D70-C6D1B105C7A6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestSlideMenu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>18D37A843A99208D2477BE034D7DEBE5DFBB81DE</key>
+		<string>github.com:dearboy15/TestSlideMenu.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestSlideMenu.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>18D37A843A99208D2477BE034D7DEBE5DFBB81DE</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:dearboy15/TestSlideMenu.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>18D37A843A99208D2477BE034D7DEBE5DFBB81DE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>18D37A843A99208D2477BE034D7DEBE5DFBB81DE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestSlideMenu</string>
+		</dict>
+	</array>
+</dict>
+</plist>

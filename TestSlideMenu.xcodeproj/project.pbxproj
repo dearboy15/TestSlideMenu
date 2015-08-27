@@ -14,6 +14,7 @@
 		8D019EDE1B8DEFA200FF55D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D019EDC1B8DEFA200FF55D7 /* LaunchScreen.xib */; };
 		8D019EEA1B8DEFA200FF55D7 /* TestSlideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D019EE91B8DEFA200FF55D7 /* TestSlideMenuTests.swift */; };
 		8D019EF41B8DF3EC00FF55D7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D019EF31B8DF3EC00FF55D7 /* SecondViewController.swift */; };
+		8E93061C1B8E8A56001AC06A /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93061B1B8E8A56001AC06A /* LeftViewController.swift */; };
 		AE1CCF5F7C2455084B8CD8AF /* Pods_TestSlideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5926FE3C254D5B3D039A35EF /* Pods_TestSlideMenu.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		8D019EE81B8DEFA200FF55D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D019EE91B8DEFA200FF55D7 /* TestSlideMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSlideMenuTests.swift; sourceTree = "<group>"; };
 		8D019EF31B8DF3EC00FF55D7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8E93061B1B8E8A56001AC06A /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		915401E7A61B8CB64ADB9C16 /* Pods-TestSlideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSlideMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSlideMenu/Pods-TestSlideMenu.release.xcconfig"; sourceTree = "<group>"; };
 		EEFF16F8F31920894C97CF21 /* Pods-TestSlideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSlideMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestSlideMenu/Pods-TestSlideMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +99,7 @@
 				8D019ED31B8DEFA200FF55D7 /* AppDelegate.swift */,
 				8D019ED51B8DEFA200FF55D7 /* ViewController.swift */,
 				8D019EF31B8DF3EC00FF55D7 /* SecondViewController.swift */,
+				8E93061B1B8E8A56001AC06A /* LeftViewController.swift */,
 				8D019ED71B8DEFA200FF55D7 /* Main.storyboard */,
 				8D019EDA1B8DEFA200FF55D7 /* Images.xcassets */,
 				8D019EDC1B8DEFA200FF55D7 /* LaunchScreen.xib */,
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D019EF41B8DF3EC00FF55D7 /* SecondViewController.swift in Sources */,
+				8E93061C1B8E8A56001AC06A /* LeftViewController.swift in Sources */,
 				8D019ED61B8DEFA200FF55D7 /* ViewController.swift in Sources */,
 				8D019ED41B8DEFA200FF55D7 /* AppDelegate.swift in Sources */,
 			);

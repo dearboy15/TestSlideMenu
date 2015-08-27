@@ -26,8 +26,8 @@ class ViewController: UIViewController {
     
         let main = storyboard.instantiateViewControllerWithIdentifier("SecondView") as! SecondViewController
         
-        let left = UIViewController()
-        left.view.backgroundColor = UIColor.yellowColor()
+        let left =  LeftViewController()//UIViewController()
+        //left.view.backgroundColor = UIColor.yellowColor()
         let right = UIViewController()
         right.view.backgroundColor = UIColor.blueColor()
         
