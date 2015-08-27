@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LeftViewController: UIViewController,UITableViewDelegate {
+class LeftViewController: UIViewController {
     
     let tableview =  UITableView()
     
@@ -26,6 +26,9 @@ class LeftViewController: UIViewController,UITableViewDelegate {
         self.tableview.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)
         self.view.addSubview(self.tableview)
     }
+}
+extension LeftViewController: UITableViewDelegate{
+    
 }
 
 extension LeftViewController: UITableViewDataSource{
